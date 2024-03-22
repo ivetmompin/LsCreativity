@@ -1,0 +1,19 @@
+{
+    "name": "ivet/lscreativity",
+    "description": "PHP, HTML, CSS and MYSQL web application",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ivet\\Lscreativity\\": "public/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivet Mompin"
+        }
+    ]
+}

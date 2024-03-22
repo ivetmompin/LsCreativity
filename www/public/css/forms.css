@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqeCjd8SeQjMwI841IycTQEg-254WjObllebHWJnVRw&s") no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.registration-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+}
+.search-form{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+}
+
+.registration-form h1{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: purple;
+}
+
+.registration-form h2{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: purple;
+}
+
+.search-form h1{
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: purple;
+}
+
+.error{
+    font-size: 10px;
+    color: red;
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+.registration-form .label {
+    font-size: 15px;
+    margin: 15px 0;
+    color: purple;
+    font-weight: bold;
+}
+
+.search-form label {
+    font-size: 15px;
+    margin: 8px 0;
+    color: purple;
+    font-weight: bold;
+}
+
+.registration-form input{
+    font-size: 16px;
+    color:black;
+    font-weight: lighter;
+    background-color: rgba(239, 239, 240, 1);
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-form input{
+    font-size: 15px;
+    color:black;
+    font-weight: lighter;
+    padding: 8px 10px;
+    width: 80%;
+    background-color: rgba(239, 239, 240, 1);
+    border-radius: 5px;
+}
+
+.registration-form {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.search-form {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 50px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.registration-form button{
+    margin: 40px 40%;
+    padding: 2%;
+    align-content: center;
+    border-radius: 8px;
+    width: 20%;
+    height:10%;
+    background-color: white;
+    border-color: purple;
+    color: purple;
+}
+
+.search-form button{
+    margin: 20px 40%;
+    padding: 2%;
+    align-content: center;
+    border-radius: 8px;
+    width: 20%;
+    height:10%;
+    background-color: white;
+    border-color: purple;
+    color: purple;
+}
